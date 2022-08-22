@@ -1,0 +1,10 @@
+{
+	"name": "John",
+	"age": 20,
+	"groceryList":["milk","eggs"],
+	"address":{
+		"street":"123  First St.",
+		"city":"Houston",
+		"state": "TX"
+	}
+}

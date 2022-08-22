@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Json Example</title>
+</head>
+<body>
+	<script>
+//		let data = {
+//			"name":"John",
+//			"age": 30,
+//		}
+//		console.log(data);
+		fetch('data.json')
+		.then((resp) => resp.json())
+		.then((json) => {
+			console.log(json.name)
+		})
+	</script>
+</body>
+</html>
